@@ -2,6 +2,8 @@
 
 > A Vue.js project
 
+https://sweida.github.io/vue-admin/
+
 ## Build Setup
 
 ``` bash
