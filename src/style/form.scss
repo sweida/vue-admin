@@ -1,0 +1,66 @@
+.explain{
+  width: 400px;
+  color:#475669;
+  padding: 0;
+  padding-left: 40px;
+  box-sizing: border-box;
+  border-left: 1px solid #ddd;
+  textarea{
+    margin-top: 10px;
+    padding:10px;
+    line-height: 26px;
+    font-size: 14px;
+    resize: none;
+    border: 0;
+    background: #f7f7f7;
+    color: #3a4354;
+    width: 100%;
+    height: 130px;
+    outline: none;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+}
+.topmain{
+  display: flex;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 15px;
+  .el-form{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    align-items: center;
+    .el-form-item{
+      width: 310px;
+      margin-right: 40px;
+      margin-bottom: 5px;
+      em{
+        margin-right: 20px;
+      }
+      .el-select, .topmain .el-date-editor{
+        width:100%;
+      }
+    }
+    .searchBtn{
+      margin-bottom: 5px;
+    }
+  }
+}
+.dialog-main{
+  min-height: 400px;
+  .headInfo{
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 36px;
+    margin-bottom: 20px;
+    span{
+      width: 270px;
+    }
+  }
+}
+.moreText{
+  color:#3BB3FF;
+  cursor: pointer;
+  text-decoration:underline;
+  line-height: 28px;
+}
